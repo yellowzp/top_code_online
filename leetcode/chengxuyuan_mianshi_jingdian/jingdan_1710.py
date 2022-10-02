@@ -23,5 +23,6 @@ class Solution(object):
             return candi
         return -1
 
+
 obj = Solution()
-print(obj.majorityElement([3,3,4]))
+print(obj.majorityElement([3, 3, 4]))

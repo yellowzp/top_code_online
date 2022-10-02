@@ -3,11 +3,12 @@
 """
 @author: Vesper Huang
 """
+
+
 class CQueue(object):
 
     def __init__(self):
         self.array = []
-
 
     def appendTail(self, value):
         """
@@ -15,7 +16,6 @@ class CQueue(object):
         :rtype: None
         """
         self.array += [value]
-
 
     def deleteHead(self):
         """
