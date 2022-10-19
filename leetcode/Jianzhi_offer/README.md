@@ -1,3 +1,3 @@
 # 剑指offer
 
-python: 2.X
+python: 3.X

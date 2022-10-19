@@ -1,5 +1,6 @@
 # -*- coding: UTF-8 -*-
-import math
+
+
 class Solution(object):
     def singleNumber(self, nums):
         """
@@ -17,9 +18,9 @@ class Solution(object):
         # print set2
         return set1.difference(set2).pop()
 
+
 # print 1 << 2 - 1
 # print 1 << 1 - 1
 # print 1 << 3 - 1
 obj = Solution()
-print obj.singleNumber([3,4,3,3])
-
+print(obj.singleNumber([3, 4, 3, 3]))
